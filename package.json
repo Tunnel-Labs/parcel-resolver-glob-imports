@@ -1,0 +1,17 @@
+{
+	"name": "parcel-resolver-glob-imports",
+	"type": "commonjs",
+	"exports": {
+		".": {
+			"types": "./src/index.d.ts",
+			"default": "./src/index.js"
+		}
+	},
+	"engines": {
+		"parcel": "2.9.3"
+	},
+	"dependencies": {
+		"@parcel/plugin": "2.9.3",
+		"glob-imports": "1.0.0"
+	}
+}

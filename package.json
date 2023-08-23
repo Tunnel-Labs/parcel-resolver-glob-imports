@@ -1,6 +1,6 @@
 {
 	"name": "parcel-resolver-glob-imports",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"type": "commonjs",
 	"exports": {
 		".": {
@@ -9,10 +9,10 @@
 		}
 	},
 	"engines": {
-		"parcel": "2.9.3"
+		"parcel": "^2.9.3"
 	},
 	"dependencies": {
-		"@parcel/plugin": "2.9.3",
-		"glob-imports": "1.0.0"
+		"@parcel/plugin": "^2.9.3",
+		"glob-imports": "^1.0.1"
 	}
 }

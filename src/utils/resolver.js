@@ -18,7 +18,7 @@ module.exports = new Resolver({
 
     const globfilePath = getGlobfilePath({
       globfileModuleSpecifier: specifier,
-      importerFilePath: dependency.resolveFrom,
+      importerFilepath: dependency.resolveFrom,
     });
     const globfileMatchedFiles = getGlobfileMatchedFiles({ globfilePath });
     const globfileContents = getGlobfileContents({

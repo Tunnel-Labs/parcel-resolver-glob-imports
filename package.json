@@ -1,6 +1,6 @@
 {
 	"name": "parcel-resolver-glob-imports",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"type": "commonjs",
 	"exports": {
 		".": {
@@ -14,6 +14,6 @@
 	"dependencies": {
 		"@parcel/plugin": "^2.9.3",
 		"get-monorepo-root": "^1.0.1",
-		"glob-imports": "^2.0.0"
+		"glob-imports": "^3.0.0"
 	}
 }
